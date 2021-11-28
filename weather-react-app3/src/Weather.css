@@ -1,0 +1,106 @@
+.Weather #box {
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  border: 2px solid purple;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: 20px 300px 5px;
+  box-shadow: 5px 5px 5px rgba(110, 108, 108, 0.3);
+}
+.Weather body {
+  font-family: "Marcellus", serif;
+}
+.Weather header.cityname {
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+.Weather .citytemperature {
+  position: relative;
+  right: -390px;
+  top: -114px;
+  font-size: 60px;
+}
+.Weather #country {
+  position: relative;
+  right: -10px;
+}
+.Weather #current-date {
+  position: relative;
+  right: -10px;
+}
+.Weather #description {
+  position: relative;
+  right: -10px;
+}
+.Weather .celsius {
+  position: relative;
+  right: -330px;
+  top: -130px;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.Weather .celsius:hover {
+  color: brown;
+  text-decoration: none;
+}
+.Weather .fahrenheit:hover {
+  color: brown;
+  text-decoration: none;
+}
+.Weather .fahrenheit {
+  position: relative;
+  right: -330px;
+  top: -130px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.Weather .icon {
+  position: relative;
+  right: -250px;
+  top: -100px;
+}
+.Weather ul {
+  list-style: none;
+  position: relative;
+  top: -130px;
+  right: -380px;
+  font-size: 20px;
+  color: grey;
+}
+
+.Weather section {
+  text-align: center;
+}
+
+.Weather .credit {
+  margin-left: 300px;
+  color: palevioletred;
+}
+.Weather .celsius.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.Weather .fahrenheit.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.Weather section {
+  position: relative;
+  top: -130px;
+}
+.Weather .weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.Weather .weather-forecast {
+  font-size: 16px;
+}
