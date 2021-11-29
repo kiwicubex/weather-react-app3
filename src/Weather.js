@@ -70,7 +70,7 @@ export default function Weather() {
         </div>
       </div>
       <a
-        href="https://github.com/kiwicubex/weather-react"
+        href="https://github.com/kiwicubex/weather-react-app3"
         target="_blank"
         class="credit"
         rel="noreferrer"
